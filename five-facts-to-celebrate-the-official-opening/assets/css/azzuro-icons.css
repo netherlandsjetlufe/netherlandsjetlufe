@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'azzuro-icons';
+  src:  url('../fonts/aruzzo-fonts.eot?9zrvp5');
+  src:  url('../fonts/aruzzo-fonts.eot?9zrvp5#iefix') format('embedded-opentype'),
+    url('../fonts/aruzzo-fonts.ttf?9zrvp5') format('truetype'),
+    url('../fonts/aruzzo-fonts.woff?9zrvp5') format('woff'),
+    url('../fonts/aruzzo-fonts.svg?9zrvp5#azzuro-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="azzuro-icon-"], [class*=" azzuro-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'azzuro-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.azzuro-icon-left-arrow:before {
+  content: "\e90d";
+}
+.azzuro-icon-right-arrow:before {
+  content: "\e90e";
+}
+.azzuro-icon-analysis:before {
+  content: "\e900";
+}
+.azzuro-icon-building:before {
+  content: "\e901";
+}
+.azzuro-icon-conversation:before {
+  content: "\e902";
+}
+.azzuro-icon-customer-support:before {
+  content: "\e903";
+}
+.azzuro-icon-decorating:before {
+  content: "\e904";
+}
+.azzuro-icon-discuss-issue:before {
+  content: "\e905";
+}
+.azzuro-icon-growth:before {
+  content: "\e906";
+}
+.azzuro-icon-growth-2:before {
+  content: "\e907";
+}
+.azzuro-icon-house:before {
+  content: "\e908";
+}
+.azzuro-icon-sketch:before {
+  content: "\e909";
+}
+.azzuro-icon-skyline:before {
+  content: "\e90a";
+}
+.azzuro-icon-support:before {
+  content: "\e90b";
+}
+.azzuro-icon-university:before {
+  content: "\e90c";
+}

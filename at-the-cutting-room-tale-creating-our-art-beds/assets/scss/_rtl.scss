@@ -1,0 +1,245 @@
+/*----------------------------------------*/
+/*  RTL Style
+/*----------------------------------------*/
+html[dir="rtl"] {
+    .interior-menu-wrapper {
+        text-align: left;
+    }
+    
+    .logo-box {
+        text-align: right;
+    }
+    .testimonial-carousel {
+        direction: ltr;
+    }
+    .testimonial-single {
+        direction: rtl;
+    }
+    .partner-carousel {
+        direction: ltr;
+    }
+    .ss-carousel {
+        direction: ltr;
+    }
+    
+    .work-process-area {
+        direction: ltr;
+    }
+    
+    .wpc-text {
+        direction: rtl;
+    }
+    
+    .related-story-area {
+        direction: ltr;
+    }
+    .blog-details-bottom {
+        direction: ltr;
+    }
+    .blog-top-area-slider {
+        direction: ltr;
+    }
+    .blog-list-single .blc-text {
+        text-align: right;
+    }
+    .blog-list-single .blc-text h4:after {
+        content: '\f30a';
+    }
+    .bws-pagination {
+        direction: ltr;
+    }
+    .bsb-input input[type="search"] {
+        padding-right: 40px;
+    }
+    .cspca-text {
+        text-align: right;
+        padding-right: 30px;
+    }
+    
+    .cspca-text h2:after {
+        left: unset;
+        right: 0;
+    }
+    
+    .cspage-social {
+        text-align: left;
+    }
+    
+    .cspage-social ul {
+        text-align: left;
+    }
+    
+    .cspage-logo {
+        text-align: right;
+    }
+    .contact-map-area {
+        position: relative;
+        direction: ltr;
+    }
+    
+    .contact-head {
+        direction: rtl;
+    }
+    
+    .contact-content-area {
+        direction: ltr;
+    }
+    
+    .single-contact {
+        direction: rtl;
+    }
+    .client-feadback-area {
+        direction: ltr;
+    }
+    .p-number {
+        text-align: right;
+    }
+    .our-process-area2 {
+        direction: ltr;
+    }
+    
+    .ap2r-text {
+        direction: rtl;
+        text-align: right;
+    }
+    
+    .owl-client-says .item .cs-img {
+        text-align: right;
+    }
+    
+    .owl-client-says .item .cs-text {
+        text-align: right;
+    }
+    
+    .rs-item-content-right {
+        text-align: right;
+    }
+    .about-us-area-2 {
+        direction: ltr;
+    }
+    
+    .au2-left {
+        text-align: right;
+    }
+    
+    .au2-right {
+        text-align: right;
+    }
+
+    .hero-area-3 {
+        direction: ltr;
+    }
+    
+    .hero3-content {
+        text-align: right;
+    }
+    
+    .hero3-text p {
+        margin-right: 0;
+        margin-left: auto;
+    }
+    
+    .about-us3-area {
+        direction: ltr;
+    }
+    
+    .about-us3-content {
+        direction: rtl;
+        margin: 10px auto;
+    }
+    
+    .au3-info {
+        margin-right: 55px;
+        margin-left: auto;
+        text-align: right;
+    }
+    
+    .about-us3-right {
+        text-align: right;
+    }
+    
+    .wcr-box {
+        text-align: right;
+    }
+    
+    .why-choose-left {
+        text-align: right;
+    }
+
+    .heroV4 {
+        direction: ltr;
+    }
+    
+    .hero-content.hc-4 {
+        direction: rtl;
+    }
+    
+    .about-us4-area {
+        direction: ltr;
+    }
+    
+    .au4-text {
+        direction: rtl;
+        text-align: right;
+    }
+    
+    .au4-text .section-titleV4 {
+        text-align: right;
+    }
+    
+    .portfolio-slide-area {
+        direction: ltr;
+    }
+    
+    .single-case-study .cs-text {
+        text-align: right;
+    }
+    
+    .testimonial4-area {
+        direction: ltr;
+    }
+    
+    .single-testimonial4 {
+        direction: rtl;
+        text-align: right;
+    }
+    
+    .single-testimonial4 .st4-author img {
+        right: 0;
+    }
+    
+    .single-testimonial4 .st4-author {
+        padding-right: 70px;
+    }
+    
+    .project-talk-form {
+        text-align: right;
+    }
+    
+    .project-talk-form form input {
+        text-align: right;
+    }
+    
+    .project-talk-form form textarea {
+        text-align: right;
+    }
+    .interior-sidenav {
+        direction: ltr;
+    }
+    
+    .about-us5-area {
+        direction: ltr;
+    }
+    
+    .about-us5-area .au5-text {direction: rtl;text-align: right;}
+    
+    .about-us5-area .au5-text .section-titleV4 {
+        text-align: right;
+    }
+    .service-subscribe-area {
+        overflow: hidden;
+    }
+    
+}
+
+/*-------- RTL Style End --------*/

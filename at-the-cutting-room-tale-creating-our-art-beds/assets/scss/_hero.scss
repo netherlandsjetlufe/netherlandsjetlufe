@@ -1,0 +1,368 @@
+/*----------------------------------------*/
+/*  Hero 1 Style
+/*----------------------------------------*/
+
+
+.heroV1 {
+    background: rgba(0, 0, 0, 0) url(../img/bg/bg-1.jpg) repeat scroll 0 0;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    padding: 84px 0 0;
+    position: relative;
+    /* height: 100vh; */
+    z-index: 1;
+    &::before {
+        background: rgba(0, 0, 0, .5) repeat scroll 0 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+}
+.hero-content {
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 100px 0px 0px;
+    p {
+        color: #ffffff;
+        font-family: Sacramento;
+        font-size: 30px;
+        padding: 15px 0px;
+    }
+    h2 {
+        margin: auto;
+        padding: 15px 0px;
+        font-size: 60px;
+        font-weight: 300;
+        line-height: 80px;
+        letter-spacing: 10px;
+        color: #ffffff;
+    }
+    .hero-text {
+        position: relative;
+        max-width: 880px;
+        margin: 0 auto;
+    }
+}
+
+.more-btn {
+    padding: 20px;
+    a {
+        color: #ffffff;
+        padding: 15px 35px;
+        font-size: 16px;
+        font-weight: 500;
+        border: 2px solid #ffffff;
+        &:hover {
+            text-shadow: 1px 1px 2px black, 0 0 25px #747475, 0 0 5px #6f6f6f;
+            background-color: rgba(0, 0, 0, 0.5);
+        
+        }
+    }
+    .hvr-bs {
+        &:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        }
+    }
+
+}
+
+.scroll-down-content {
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.sd-img-icon {
+    a {
+        display: inline-block;
+        &:hover {
+            img {
+                animation: bounceIn 2s;
+            }
+        }
+    }
+}
+
+.sd-text {
+    p {
+        a {
+            color: #ffffff;
+            font-size: 10px;
+            letter-spacing: 5px;
+        }
+    }
+}
+
+
+/* ---------- Hero 1 Style END ---------- */
+
+
+/*----------------------------------------*/
+/*  Hero 2 Style
+/*----------------------------------------*/
+.hero-area-2 {
+    background: rgba(0, 0, 0, 0) url(../img/bg/bg-2.jpg) repeat scroll 0 0;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    padding: 84px 0 0;
+    position: relative;
+    height: 100vh;
+    
+}
+.hero2-content {
+    position: relative;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 100px 0px 0px;
+}
+.h2t-bback {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #ffffff;
+    width: 40%;
+    margin: 0 auto;
+    &:hover {
+    
+        border: 3px solid #ffffff;
+        
+    }
+}
+
+.hero2-text {
+    margin: -15px -280px;
+    p {
+        color: #ffffff;
+        font-family: Sacramento;
+        font-size: 36px;
+        letter-spacing: 2px;
+        
+        margin: 0 auto 40px;
+        width: 600px;
+        background-color: #faad81;
+    }
+    h2 {
+        max-width: 800px;
+        margin: 40px auto 0px;
+        padding: 15px 0px;
+        font-size: 72px;
+        font-weight: 300;
+        line-height: 80px;
+        letter-spacing: 10px;
+        color: #ffffff;
+        background-color: #faad81;
+    }
+    span {
+        color: #ffffff;
+        font-size: 18px;
+        background-color: #faad81;
+        padding: 0px 10px;
+    }
+}
+
+
+/* ---------- Hero 2 Style END ---------- */
+
+
+/*----------------------------------------*/
+/*  Hero 3 Style
+/*----------------------------------------*/
+
+.hero-area-3 {
+    background: rgba(0, 0, 0, 0) url(../img/bg/bg-3.jpg) repeat scroll 0 0;
+        background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    padding: 84px 0 0;
+    position: relative;
+    min-height: 625px;
+}
+
+.hero3-content {
+    margin-bottom: 50px;
+    padding: 100px 0px 50px;
+}
+
+.hero3-text {
+    position: relative;
+    max-width: 660px;
+    margin: 0 auto;
+    z-index: 1;
+    &:before {
+        position: absolute;
+        content: '';
+        height: 140%;
+        width: 500px;
+        border: 1px solid #faad83;
+        left: -100px;
+        top: -12%;
+        z-index: -1;
+    }
+    p {
+        position: relative;
+        color: #555555;
+        font-family: 'Raleway', sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 34px;
+        max-width: 400px;
+        padding: 15px 0px;
+    }
+    h2 {
+        font-size: 60px;
+        color: #ffffff;
+        background-color: #faad83;
+        padding: 30px 10px;
+        line-height: 70px;
+        font-weight: 300;
+        transition: .5s ease;
+    }
+}
+
+
+/* ---------- Hero 3 Style END ---------- */
+
+
+/*----------------------------------------*/
+/*  Hero 4 Style
+/*----------------------------------------*/
+
+.heroV4 {
+    background: rgba(0, 0, 0, 0) url(../img/bg/bg-4.jpg) repeat scroll 0 0;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    padding: 85px 0 120px;
+    position: relative;
+    /* height: 100vh; */
+    z-index: 1;
+    &::before {
+        background-color: rgba(49, 48, 47, 0.502);
+        content: "";
+        height: 100%;
+        left: 0;
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+}
+
+
+
+.hc-4 {
+    .hero-text {
+        h4 {
+            font-size: 30px;
+            letter-spacing: 0px;
+            color: #fff;
+            font-weight: 400;
+            margin: 20px auto;
+        }
+        h2 {
+            font-weight: 400;
+            letter-spacing: 0px;
+            line-height: 75px;
+        }
+        p {
+            font-family: "Josefin Sans", sans-serif;
+            font-size: 26px;
+            font-weight: 300;
+            line-height: 36px;
+            padding-top: 0px;
+        }
+    }
+}
+
+
+.hero4-carousel {
+    position: relative;
+    .owl-dots {
+        display: none;
+    }
+    .owl-nav {
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        top: calc(50% - 30px);
+        height: 60px;
+        [class*=owl-] {
+            font-size: 28px;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            padding-top: 9px;
+            background-color: transparent;
+            border: 2px solid #fff;
+            transition: .5s ease;
+            &:hover {
+                background-color: rgba(0, 0, 0, .50);
+            }
+        }
+        .owl-prev {
+            float: left;
+        }
+        .owl-next {
+            float: right;
+        }
+        
+    }
+}
+
+
+
+/* ---------- Hero 4 Style END ---------- */
+
+
+
+
+/*----------------------------------------*/
+/*  Hero 5 Style
+/*----------------------------------------*/
+
+.heroV5 {
+    background: rgba(0, 0, 0, 0) url(../img/bg/hero5-bg.jpg) repeat scroll 0 0;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    padding: 85px 0 120px;
+    position: relative;
+    /* height: 100vh; */
+    .hero-content {
+       
+        text-align: left;
+        margin-left: 45px;
+        
+        .hero-text {
+            margin-left: 0;
+            h4 {
+                font-size: 30px;
+                letter-spacing: 0px;
+                color: #fff;
+                line-height: 40px;
+                font-weight: 500;
+            }
+            h3 {
+                font-size: 60px;
+                line-height: 70px;
+                color: #fff;
+                letter-spacing: 0px;
+                font-weight: 500;
+                margin: 20px auto;
+            }
+        }
+    }
+   
+}
+
+
+
+
+/* ---------- Hero 5 Style END ---------- */

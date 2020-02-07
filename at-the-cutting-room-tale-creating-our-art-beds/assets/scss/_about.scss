@@ -1,0 +1,922 @@
+
+/*----------------------------------------*/
+/*  About Style 1
+/*----------------------------------------*/
+.about-us-content {
+    text-align: center;
+    padding: 20px 0px 10px;
+    transition: .5s ease;
+    &:hover {
+        background-color: #f1f1f1;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: .5s ease;
+    }
+}
+
+.au-content {
+    padding: 10px 10px 10px 0px;
+    h4 {
+    
+        font-size: 18px;
+        padding: 20px 0px 10px;
+        color: #464646;
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color: #797979;
+        
+    }
+}
+.about-us-text {
+    position: relative;
+    text-align: center;
+    max-width: 940px;
+    margin: 30px auto;
+    padding: 30px 0px 10px;
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+    }
+}
+
+.au2-img {
+    position: relative;
+    &:hover {
+        .au2-overlay {
+            width: 100%;
+        }
+    }
+    
+}
+  
+  
+.au2image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.au2-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+  
+.auo2-o-icon {
+    a {
+        color: $primaryColor;
+        font-size: 40px;
+        position: absolute;
+        overflow: hidden;
+        top: 40%;
+        left: 50%;;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+}
+  
+.auo2-text {
+    white-space: nowrap; 
+    color: $primaryColor;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 90%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    a {
+        h4{
+    
+            font-weight: 500;
+            font-size: 24px;
+            color: $primaryColor;
+        }
+    }
+    p {
+        color: #d7d7d7;
+        font-weight: 100;
+        text-align: left;
+        font-size: 14px;
+    }
+}
+
+  
+/*--------- About Style 1 END ------------*/
+
+
+
+/*----------------------------------------*/
+/*  About Style 2
+/*----------------------------------------*/
+
+.about-us-area-2 {
+    background: rgba(0, 0, 0, 0) url(../img/bg/au2-bg.jpg) repeat scroll 0 0;
+    overflow: hidden;
+    padding: 84px 0 25px;
+    position: relative;
+    
+}
+
+.au2-left {
+    
+    width: 85%;
+    margin: 80px auto 0px;
+}
+
+.au2-left-title {
+    h2 {
+        line-height: initial;
+        font-size: 48px;
+        padding: 40px 0px 30px;
+        color: #4e4e4e;
+        font-weight: 400;
+    }
+    
+}
+.au2-left-text {
+    p {
+        font-size: 16px;
+        color: #4e4e4e;
+        padding: 20px 0px;
+    }
+}
+.au2-right {
+    width: 85%;
+    margin: 80px 0 0px;
+}
+.au2-right-text {
+    padding-top: 40px;
+    p {
+        font-size: 16px;
+        color: #4e4e4e;
+        margin-bottom: 15px;
+    }
+    a {
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+}
+/*--------- About Style 2 END ------------*/
+
+
+
+/*----------------------------------------*/
+/*  About Style 3
+/*----------------------------------------*/
+.about-us3-area {
+    padding: 50px 0px;
+    margin: 80px auto;
+}
+
+.about-us3-content-left {
+
+        background: rgba(0, 0, 0, 0) url(../img/banner/au3-img.jpg) repeat scroll 0 0;
+        height: 500px;
+        position: relative;
+}
+
+
+.au3-ltext {
+
+}
+
+.au3-ltext-box {
+    height: 280px;
+    width: 475px;
+    background-color: #faad83;
+    float: right;
+    margin-right: 60px;
+    margin-top: 120px;
+    transition: .5s ease;
+}
+
+
+.au3-tb1 {
+    position: relative;
+    border: 1px solid #ffffff;
+    height: 75%;
+    width: 80%;
+    margin: 35px auto;
+    &:hover {
+        border: 2px solid #ffffff;
+        height: 75%;
+        width: 80%;
+       
+    }
+
+}
+
+.au3-tb2 {
+    width: 260px;
+    height: 270px;
+    background-color: #faad83;
+    margin-top: -30px;
+    margin-left: 60px;
+    transition: .5s ease;
+}
+
+.au3-tb3 {
+    background-color: #faad83;
+    width: 435px;
+    height: 110px;
+    margin-top: -195px;
+    margin-left: -30px;
+    transition: .5s ease;
+}
+.au3-tc {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    width: 85%;
+    margin: -95px auto 0px;
+}
+
+.au3-tc {
+    h5 {
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 14px;
+        color: #eeeeee;
+        padding: 10px 0px;
+    }
+}
+
+.about-us3-right {
+    padding: 20px;
+}
+
+.about3-title {
+
+}
+
+.about3-title {
+    h3 {
+        font-size: 50px;
+        color: #222222;
+        font-weight: 400;
+        line-height: 60px;
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        padding: 10px 0px;
+        color: #737373;
+        font-weight: 500;
+    }
+}
+
+.about-us3-content {
+    position: relative;
+    max-width: 460px;
+    margin: 8px 8px 0px 0px;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    box-shadow: 0 5px 15px 0 rgba(153, 153, 153, 0.3);
+    &:hover {
+    
+        box-shadow: 0 5px 15px 0 rgba(153, 153, 153, 0.3);
+    }
+}
+
+
+.au3-symbol {
+    position: absolute;
+    font-size: 40px;
+    top: 35px;
+}
+
+.au3-info {
+    margin-left: 55px;
+    h3 {
+    
+        font-size: 24px;
+        color: #636363;
+        margin: 10px 0px;
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color: #7d7d7d;
+    }
+}
+
+
+.why-choose-left {
+    margin-left: -15px;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 40px auto;
+        li {
+            font-family: 'Raleway', sans-serif;
+            padding: 15px 0px;
+            font-size: 13px;
+            position: relative;
+            padding-left: 25px;
+            &:before {
+                content: "\f0fe";
+                font-family: "Font Awesome 5 Free";
+                font-size: 15px;
+                color: #faad83;
+                position: absolute;
+                left: 0;
+                top: 15px;
+            }
+        }
+    }
+}
+
+
+
+.wcu-head {
+    h3 {
+        font-size: 48px;
+        margin: 15px 0px;
+        font-weight: 400;
+        line-height: initial;
+    }
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        color: #707070;
+        padding: 15px 0px;
+    }
+}
+
+
+.bn-btn {
+    margin: 40px 0px 0px;
+    a {
+        font-family: 'Raleway', sans-serif;
+        border: 1px solid #7d7d7d;
+        font-size: 14px;
+        padding: 12px 50px;
+        font-weight: 600;
+        border-radius: 25px;
+        display: inline-block;
+        &:hover {
+            background-color: #faad83;
+            border: 1px solid #faad83;
+            color: #ffffff;
+        }
+    }
+}
+
+.why-choose-right {
+
+        background: rgba(0, 0, 0, 0) url(../img/banner/au3-img2.jpg) repeat scroll 0 0;
+        height: 600px;
+        position: relative;
+}
+
+.wcr-box {
+    position: absolute;
+    width: calc(100% - 40px);
+    bottom: 20px;
+    left: 20px;
+    padding: 40px 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        color: #707070;
+    }
+    span {
+        font-family: 'Josefin Sans';
+        font-size: 18px;
+        color: #000000;
+    }
+}
+
+/*--------- About Style 3 END ------------*/
+
+
+
+/*----------------------------------------*/
+/*  Our Process Style 1
+/*----------------------------------------*/
+
+
+
+.our-process-area2 {
+    position: relative;
+    margin: 80px auto;
+    padding: 50px 0px;
+
+}
+
+.opa2-b-box {
+    width: 80%;
+    height: 460px;
+    right: 35px;
+    top: 155px;
+    background-color: #ffffff;
+    border: 1px solid #f9ad81;
+    position: absolute;
+}
+.our-process2-left {}
+.ap2l-text {
+    float: left;
+    transform: rotate(90deg);
+    margin-top: 145px;
+    margin-left: -15px;
+    h4 {
+    
+    }
+}
+
+.ap2l-img {
+    width: 75%;
+    float: right;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.ap2r-title {
+    float: right;
+    width: 40%;
+    h2 {
+        font-size: 48px;
+        line-height: 50px;
+        font-weight: 400;
+        span {
+            font-family: $primaryFont;
+            font-weight: 400;
+        }
+    }
+}
+
+.ap2r-img {
+    width: 40%;
+}
+
+.ap2r-text {
+    padding: 80px 0px 80px 50px;
+    a {
+        font-size: 16px;
+        color: #f9ad81;
+        text-decoration: underline;
+    }
+    
+}
+
+
+/*--------- Our Process Style 2 END ------------*/
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/*  Work Process Style 1
+/*----------------------------------------*/
+
+
+.work-process-area {
+    background: rgba(0, 0, 0, 0) url(../img/bg/wprocess-bg.jpg) no-repeat fixed center (center / cover);
+    overflow: hidden;
+  }
+  
+  .work-process-area-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .wprocess-head h2 {
+    font-weight: 300;
+    text-align: center;
+    margin: 100px 0px 60px;
+    color: #ffffff;
+    font-size: 48px;
+    &:before {
+      content: "|";
+      display: inline-block;
+      margin-right: 20px;
+      transform: rotate(25deg);
+      color: #faad83;
+    }
+  }
+  
+  .workp-content {
+    margin: 40px auto;
+  }
+  
+  .wpc-no {
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    width: 171px;
+    border-radius: 60%;
+  }
+  
+  .wpcn-o {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 60%;
+    padding: 50px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    h2 {
+      font-size: 56px;
+      color: #ffffff;
+      line-height: initial;
+    }
+  }
+  
+  .wpc-text {
+    text-align: center;
+    h2 {
+      font-size: 30px;
+      color: #ffffff;
+      padding: 10px 0px;
+      position: relative;
+      font-weight: 400;
+    }
+    i {
+      color: #ffffff;
+      font-size: 35px;
+    }
+    p {
+      font-family: 'Raleway', sans-serif;
+      font-size: 14px;
+      color: #eeeeee;
+      padding: 10px 0px;
+      margin: 0px auto;
+      font-weight: 400;
+    }
+  }
+  
+  .wpcn-o:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 34%;
+    border: 1px dashed #7b7b7b;
+    border-width: 2px;
+    margin-left: 95px;
+    top: 28%;
+  }
+  
+  .lc-nb:after {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px dashed rgba(0, 0, 0, 0);
+  }
+
+/*--------- Work Process Style 1 END ------------*/
+
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/*  About Us Page Style 1
+/*----------------------------------------*/
+
+
+.all-cpage-top-section {
+    background: rgba(0, 0, 0, 0) url(../img/bg/ap-cs-bg.jpg) repeat scroll 0 0;
+    overflow: hidden;
+    padding: 84px 0 0;
+    position: relative;
+  }
+  
+  .all-cpage-stitle {
+    margin: 120px 0px 100px;
+    text-align: center;
+    padding: 25px 15% 85px;
+    background-color: #ffffff;
+    p {
+      font-size: 14px;
+      font-weight: 600;
+      color: #000000;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 20px;
+    }
+    h3 {
+      font-size: 48px;
+      line-height: 55px;
+      color: #f9ad81;
+      font-weight: 300;
+      transition: 0.5s ease;
+    }
+  }
+  
+  .about-us-details-section {
+    margin-top: 100px;
+    overflow: hidden;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      height: 350px;
+      width: 350px;
+      transform: rotate(45deg);
+      right: 5%;
+      top: 80px;
+      border: 4px solid #f2f2f2;
+    }
+  }
+  
+  .aud-left {
+    p, h3 {}
+  }
+  
+  .aud-right {}
+  
+  .aud-title h4 {
+    font-size: 18px;
+    color: #faad83;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding: 40px;
+  }
+  
+  .aud-text h3 {
+    font-size: 48px;
+    line-height: initial;
+    font-weight: 300;
+    padding: 25px;
+    color: #242424;
+  }
+  
+  .aud-title h4:after {
+    content: '';
+    position: absolute;
+    background-color: #faad83;
+    height: 2px;
+    width: 120px;
+    top: 50px;
+    left: 190px;
+  }
+  
+  .aud-text p {
+    position: relative;
+    font-size: 17px;
+    color: #959595;
+    padding: 25px 0px 25px 140px;
+    &:before {
+      content: '';
+      position: absolute;
+      background: #faad83;
+      height: 2px;
+      width: 90px;
+      top: 40px;
+      left: 25px;
+    }
+  }
+  
+  .about-us-details-section {
+    .single-figure {
+      h2 span {
+        font-family: 'Josefin Sans';
+        color: #000000;
+        font-weight: 300;
+        font-size: 48px;
+      }
+      span {
+        color: #000000;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+      }
+      position: relative;
+      margin-top: 50px;
+      &:after {
+        content: '';
+        position: absolute;
+        background-color: #faad83;
+        height: 80%;
+        width: 2px;
+        right: 0;
+        top: 0;
+        transform: rotate(20deg);
+      }
+    }
+    .sflc:after {
+      display: none;
+    }
+  }
+  
+  .our-story-strategy-area {
+    background: url(../img/bg/progrs-bg.jpg) repeat scroll 0 0;
+    padding: 100px 0px;
+  }
+  
+  .oss-right {
+    h3 {
+      color: #faad83;
+      font-weight: 300;
+    }
+    p {
+      color: #c7c7c7;
+      font-size: 13px;
+    }
+  }
+  
+  span.progressText {
+    color: #ffffff;
+    font-size: 13px;
+  }
+  
+  .tooltip {
+    position: relative;
+    float: left;
+    > .tooltip-inner {
+      background-color: rgba(0, 0, 0, 0);
+      padding: 5px 15px;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-size: 13px;
+    }
+  }
+  
+  .popOver + .tooltip > .tooltip-arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid transparent;
+  }
+  
+  .barWrapper {
+    text-align: right;
+  }
+  
+  .progress {
+    border-radius: 0;
+    overflow: visible;
+    height: 2px;
+  }
+  
+  .progress-bar {
+    float: right;
+    background: #faad83;
+    -webkit-transition: width 1.5s ease-in-out;
+    transition: width 1.5s ease-in-out;
+  }
+
+
+
+
+.profoSkill {
+    position: relative;
+    padding: 0px;
+    margin: 0 auto;
+    width: 100%;
+    li {
+        position: relative;
+        margin-bottom: 35px;
+        padding: 0;
+        list-style-type: none;
+        p {
+            font-size: 16px;
+            letter-spacing: 0px;
+            color: #2b2941;
+            font-weight: 500;
+            line-height: 24px;
+            padding-bottom: 12px;
+        }
+        .bar_container,
+        .bar {
+            position: absolute;
+            left: 0;
+            height: 2px;
+            border-radius: 5px;
+            content: "";
+        }
+        .bar_container {
+            bottom: -8px;
+            width: 100%;
+            background-color: #ebebed;
+            text-align: right;
+        }
+        .bar {
+            top: 0;
+            background-color: #faad83;
+        }
+        .pct {
+            position: absolute;
+            top: -25px;
+            right: 0;
+            opacity: 0;
+            transition: opacity 0.3s linear;
+            font-size: 16px;
+            letter-spacing: 0px;
+            color: $primaryColor;
+            font-weight: 500;
+            line-height: 24px;
+            padding-bottom: 12px;
+        }
+    }
+}
+/*--------- About Us Page Style 1 END ------------*/
+
+
+
+
+
+
+
+/*----------------------------------------*/
+/*  About 4 Style
+/*----------------------------------------*/
+.about-us4-area {
+    position: relative;
+  }
+  
+  .au4-img {
+    position: relative;
+    margin-bottom: 25px;
+    &:after {
+      position: absolute;
+      content: '';
+      height: 500px;
+      width: 400px;
+      border: 20px solid #ffe6d7;
+      top: 25%;
+      left: 65%;
+    }
+  }
+  
+  .au4-text {
+    position: relative;
+    p {
+      font-size: 20px;
+      color: #31302f;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+    a.btn-style-d {
+      margin-top: 15px;
+    }
+  }
+
+/*--------- About 4 Style END ------------*/
+
+
+
+
+
+
+/*----------------------------------------*/
+/*  About 5 Style
+/*----------------------------------------*/
+.about-us5-area {
+    position: relative;
+    .au5-img {
+      position: relative;
+      max-width: 620px;
+      margin: 50px auto;
+      img {
+        width: 100%;
+      }
+    }
+    .au5-text {
+      position: relative;
+      box-shadow: 0px 0px 65px 0px rgba(29, 29, 32, 0.05);
+      padding: 5px 30px;
+      margin-top: 80px;
+      margin-left: -100px;
+      background-color: $primaryColor;
+      p {
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #31302f;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+      a {
+        margin-bottom: 40px;
+      }
+      .section-titleV4 {
+        margin-bottom: 0px;
+      }
+      &.au5alt {
+        margin-left: auto;
+        margin-right: -100px;
+        z-index: 1;
+        margin-top: 120px;
+      }
+    }
+  }
+
+/*--------- About 5 Style END ------------*/
+
+
+
